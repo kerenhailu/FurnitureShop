@@ -1,0 +1,134 @@
+.Home{
+   width: 100vw;
+   height: 95vh;
+    background-image: url(https://t3.ftcdn.net/jpg/03/73/50/32/360_F_373503261_sIxI0AWra2HJLMISaS6na1fHn1yM1OYk.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    /* position: absolute; */
+    
+}
+/* .imgCenter{
+    width: 90vw;
+    height: 80vh;
+}
+.imgCloth{
+    width: 90vw;
+    height: 60vh;
+}
+.imgCategory{
+    display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: wrap;
+    width: 90vw;
+    justify-content: space-around;
+    margin-left: 65px;
+}
+.imgCategory img{
+    margin: 3px;
+    height: 55vh;
+    width: 44vw;
+} */
+.bgBrown{
+    background-image:linear-gradient(burlywood,rgba(222, 184, 135, 0.422),rgba(222, 184, 135, 0.13)) ;
+}
+/* ================================= */
+
+
+.container-boxes{
+    margin: 0 auto;
+    padding: 0;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    max-width: 90vw;
+    margin-top: 30vh;
+  }
+  
+  .box{
+    background: rgba(255,255,255,.5);
+    margin: 2%;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    max-height: 180px;
+    min-height: 180px;
+    transition: all 250ms ease-out;
+  }
+  
+  .box:hover{
+    background: rgba(255,255,255,.7);
+    transform: translateY(-10%);
+  }
+  
+  .box a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px gray;
+  }
+  
+  .icon{
+    /* font-size: 3rem; */
+    /* padding: 1rem; */
+  }
+  
+  .text h3{
+    color: burlywood;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 0;
+  }
+  
+  .text p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+  
+  .text{
+    padding: .5rem;
+  }
+
+  
+@media (max-width: 1160px){
+    .icon{
+     font-size: 2rem;
+     padding: 0.5rem;
+   }
+   .text h3{
+     text-transform: uppercase;
+     letter-spacing: 4px;
+     margin-bottom: 0;
+     font-size: 1rem;
+   }
+ 
+   .text p{
+     margin-top: 1rem;
+     line-height: 1.5rem;
+     text-align: left;
+     font-size: .8rem;
+   }
+   nav li a:hover{
+   background: none;
+   color: black;
+   }
+ }
+ 
+ 
+ @media (max-width: 850px){
+   body{
+     height: 100%;
+   }
+   .container-boxes{
+     flex-direction: column;
+   }
+   .box:hover{
+     background: rgba(255,255,255,.7);
+     transform: none;
+   }
+   .titles h1{
+   font-size: 3rem;
+   }
+ }
+ 
